@@ -1,3 +1,3 @@
-export function sum(a: number, b: number): number {
-  return a + b;
-}
+import { sum } from './sum';
+
+console.log('1 + 2 =', sum(1, 2));
